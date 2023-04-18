@@ -1,0 +1,34 @@
+// TRANSFORM
+//TRANSLATE, valores positivos mueven hacia la derecha y abajo. Valores negativos hacia arriba y la izquierda
+.translate{
+    // transform:translate(100px,100px)
+    transition:all 1s;
+    &:hover{
+        transform:translateY(-10px);
+        cursor:pointer;
+    }
+}
+// ROTATE
+.rotate{
+   transition:all 1s;
+   &:hover{
+    transform:rotate(-720deg);
+   }
+}
+// SCALE
+// valores > 1 -> agrandan; valores entre 0 y 1 -> achican; valores < 0 -> escalan dado vuelta
+.scale{
+    transition:all 1s;
+    &:hover{
+        transform:scale(1.5,1.5);
+    }
+    
+}
+// SKEW
+.skew{
+    transition:transform 1s;
+    &:hover{
+        transform:skew(20deg,30deg);
+    }
+    
+}
