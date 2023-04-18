@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 6 - Home</title>
-    <!-- etiqueta para mejorar el SEO -->
-    <meta name="description" content="breve parrafo descriptivo que resuman la info de nuestra home">
-    <meta name="keywords" content="palabras claves separadas por coma">
+    <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,16 +32,16 @@
             <div class="imgPrincipal">
                 <img src="img/header_nosotros.jpg" alt="jugadores nba" class="img-fluid skew">
             </div>
-            <div class="titulo">
+            <div class="titulo" data-aos="fade-up" data-aos-duration="3000">
                 <h1 class="translate">INICIO</h1>
             </div>
-            <div class="parrafoIzq m20">
+            <div class="parrafoIzq m20" data-aos="fade-up" data-aos-duration="3000">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ad culpa consectetur, ullam deserunt quod consequatur delectus ipsum ea nam, facilis atque rem praesentium a similique assumenda officiis sit. Iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores esse natus et eaque explicabo ullam alias reiciendis dolor nostrum id repellendus eos soluta, facere autem aliquid, commodi minima praesentium libero!</p>
             </div>
-            <div class="imgTexto">
+            <div class="imgTexto" data-aos="fade-up" data-aos-duration="3000">
                 <img src="img/img_kyrie.jpg" alt="kyrie" class="img-fluid rotate">
             </div>
-            <div class="parrafoDer m20">
+            <div class="parrafoDer m20" data-aos="fade-up" data-aos-duration="3000">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi earum tenetur sed sint. Modi, et omnis dolore excepturi, consequatur nihil, velit laborum quia possimus recusandae alias doloremque nostrum cupiditate pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, illo nam autem minus possimus inventore facilis eveniet perferendis debitis eligendi at perspiciatis sequi adipisci, laboriosam cum velit beatae, magnam impedit.</p>
             </div>
         </main>
@@ -58,6 +58,10 @@
             </div>
         </footer>
     </div>
-   
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
